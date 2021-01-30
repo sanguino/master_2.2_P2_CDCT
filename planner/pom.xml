@@ -11,8 +11,8 @@
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
 
-	<groupId>es.codeurjc.mastercloudapps</groupId>
-	<artifactId>planner-m.garcias.2020</artifactId>
+	<groupId>mgarcias2020</groupId>
+	<artifactId>planner</artifactId>
 	<version>0.1.0-SNAPSHOT</version>
 
 	<properties>

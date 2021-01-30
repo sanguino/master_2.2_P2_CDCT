@@ -10,12 +10,12 @@ import org.springframework.cloud.contract.stubrunner.spring.StubRunnerProperties
 import org.springframework.web.client.RestTemplate;
 
 @SpringBootTest
-@AutoConfigureStubRunner(ids={"es.codeurjc.mastercloudapps.reactive:toposervice-m.garcias.2020:+:stubs:8080"},
+@AutoConfigureStubRunner(ids={"mgarcias2020:toposervice:+:stubs:8080"},
 	stubsMode = StubsMode.LOCAL)
 class CDCTests {
 
 	@Test
-	void verify_book_service() {
+	void verify_topo_service() {
 		RestTemplate restTemplate = new RestTemplate();
 
 		LandscapeResponse landscapeResponse = restTemplate.getForObject("http://localhost:8080/api/topographicdetails/Madrid", LandscapeResponse.class);

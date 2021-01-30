@@ -11,7 +11,7 @@
 	</parent>
 
 	<groupId>es.codeurjc.mastercloudapps.reactive</groupId>
-	<artifactId>toposervice</artifactId>
+	<artifactId>toposervice-m.garcias.2020</artifactId>
 	<version>0.1.0-SNAPSHOT</version>
 
 	<properties>

@@ -10,7 +10,7 @@ import org.springframework.cloud.contract.stubrunner.spring.StubRunnerProperties
 import org.springframework.web.client.RestTemplate;
 
 @SpringBootTest
-@AutoConfigureStubRunner(ids={"es.codeurjc.mastercloudapps.reactive:toposervice:+:stubs:8080"},
+@AutoConfigureStubRunner(ids={"es.codeurjc.mastercloudapps.reactive:toposervice-m.garcias.2020:+:stubs:8080"},
 	stubsMode = StubsMode.LOCAL)
 class CDCTests {
 
